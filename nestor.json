@@ -1,0 +1,23 @@
+{
+  "name": "TravisCI",
+  "permalink": "travisci",
+  "description": "Manage your TravisCI builds with Nestor",
+  "environment_keys": {
+    "NESTOR_TRAVIS_ACCESS_TOKEN" : {
+      "required": true,
+      "mode": "user"
+    },
+    "NESTOR_TRAVIS_ORGNAME": {
+      "required": false,
+      "mode": "user"
+    },
+    "NESTOR_TRAVIS_API_HOST": {
+      "required": false,
+      "mode": "user"
+    },
+    "NESTOR_TRAVIS_URL": {
+      "required": false,
+      "mode": "user"
+    }
+  }
+}
